@@ -11,9 +11,9 @@
     }
 
 img {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 12px;    
+    width: 45px;
+    height: 45px;
+    margin: 15px 0px;    
 }
 
 .area-drone img {
@@ -59,6 +59,10 @@ div .login-redes {
     flex-direction: column;
     width: 50vw;
     height: 100vh;
+}
+
+.linha {
+    color: #01FF81;    
 }
 
 .card-login {
@@ -118,6 +122,11 @@ div .login-redes {
     box-shadow: 0px 5px 12px #0ba75772;
 }
 
+a {
+    text-decoration: none;
+    color: #01FF81;
+}
+
 li {
     list-style: none;
 }
@@ -127,11 +136,18 @@ li {
     padding-left: 15px;
     justify-content: space-evenly;
     align-items: center;
+    gap: 15px;
 }
 
 h3 {
     font-size: 11pt;
     color: rgb(211, 229, 229);
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+h4 {
+    color: aliceblue;
+    font-size: 13px;
+    margin-bottom: 25px;
 }
 
