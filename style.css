@@ -11,13 +11,14 @@
     }
 
 img {
-    width: 45px;
+    width: 100%;
     height: 45px;
     margin: 15px 0px;    
 }
 
 .area-drone img {
-    width: 400px;
+    display: block;
+    max-width: 100%;
     height: 350px;
     transition:ease 1.5s;
     padding-right: 10px;
@@ -41,14 +42,14 @@ div .area-drone {
 
 .area-drone h1 {
     color: #01FF81;
-    font-size: 52px;
+    font-size: 3.8rem;
     margin: 25px;
 }
 
 
 .login-redes h1 {
     color: #01FF81;
-    font-size: 16pt;
+    font-size: 1.4rem;
     padding: 12px 0px;
 }
 
@@ -93,14 +94,14 @@ div .login-redes {
     padding: 15px;
     background:rgba(48, 14, 63, 0.826);
     color: rgb(211, 229, 229);
-    font-size: 12pt;
+    font-size: 1.2rem;
     box-sizing: border-box;
 }
 
 .campo-usuario label {
     color: rgb(211, 229, 229);
     margin-bottom: 10px;
-    font-size: 12pt;
+    font-size: 1rem;
 }
 
 .campo-usuario input::placeholder {
@@ -140,14 +141,14 @@ li {
 }
 
 h3 {
-    font-size: 11pt;
+    font-size: 1rem;
     color: rgb(211, 229, 229);
     margin-bottom: 25px;
 }
 
 h4 {
     color: aliceblue;
-    font-size: 13px;
+    font-size: 0.9rem;
     margin-bottom: 25px;
 }
 
